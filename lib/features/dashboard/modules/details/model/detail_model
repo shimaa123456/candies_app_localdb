@@ -1,0 +1,14 @@
+import 'dart:ui';
+
+import 'package:flutter/material.dart';
+
+class DetailModel {
+  late String image, name, price;
+  late Color color;
+
+  DetailModel(
+      {required this.image,
+      required this.name,
+      required this.price,
+      this.color = Colors.brown});
+}
